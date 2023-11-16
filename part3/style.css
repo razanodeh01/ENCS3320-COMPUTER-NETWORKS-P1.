@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap');
+/* font-family: 'Alegreya', serif;   font-family: 'Dancing Script', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Dancing+Script:wght@600&display=swap');
+*{
+    margin :0;
+    padding : 0;
+}
+body{
+    background-color: white;
+  
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar .logo{
+    float: left;
+
+}
+.navbar .navitem{
+    float: right;
+
+}
+.navbar .logo .img{
+    width: 85%;
+    margin: auto;
+    padding-top: 0px;
+
+}
+.navbar .navitem li{
+    display: inline-block;
+    padding: 15px 0;
+    padding-top: 120px;
+    
+}
+.navbar .navitem li a{
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
+    text-transform: capitalize;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+
+    
+}
+p{
+    color: blue;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    font-size: 80px;
+    padding-top: 30px;
+}
+.newlogo img{
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 350px;
+}
+

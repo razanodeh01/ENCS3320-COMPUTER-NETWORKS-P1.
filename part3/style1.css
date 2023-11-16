@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&display=swap');
+/* font-family: 'Alegreya', serif;   font-family: 'Dancing Script', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Dancing+Script:wght@600&display=swap');
+*{
+    margin :0;
+    padding : 0;
+}
+body{
+    background-color: white;
+  
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar .logo{
+    float: left;
+
+}
+.navbar .navitem{
+    float: right;
+
+}
+.navbar .logo .img{
+    width: 85%;
+    margin: auto;
+    padding-top: 0px;
+
+}
+.navbar .navitem li{
+    display: inline-block;
+    padding: 15px 0;
+    padding-top: 120px;
+    
+}
+.navbar .navitem li a{
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
+    text-transform: capitalize;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+
+    
+}
+
+.all{
+   
+    display: flex;
+    padding-left: 260px;
+    
+} 
+.all .maisam img{
+    width: 80%;
+    height: 70%;
+}
+.all .razan img{
+    width: 80%;
+    height: 70%;
+}
+.all .maisam p{
+    text-align: center;
+    padding-right: 140px;
+    padding-top: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.all .razan p{
+    text-align: center;
+    padding-right: 240px;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
